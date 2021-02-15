@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(244.0, 342.0)" />
+		<node id="1" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(386.0, 443.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(397.0, 314.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [('C:/Users/Shahid/Desktop/DataScience/Task 6/co2_emission.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/Shahid/Desktop/co2_emission.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/Shahid/Desktop/emission data.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 268, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/Shahid/Downloads/archive/GlobalLandTemperaturesByState.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 5, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/Users/Shahid/Downloads/archive (1)/Environment_Temperature_change_E_All_Data_NOFLAG.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 66, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/Shahid/Desktop/DataScience/Task 6', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x15\x00\x00\x00\xb0\x00\x00\x03@\x00\x00\x02\x11\x00\x00\x02\x1d\x00\x00\x00\xcf\x00\x00\x038\x00\x00\x02\t\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+		<properties node_id="1" format="pickle">gASV+g0AAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lEMyAdnQywACAAD////4////+AAABV0AAALf
+AAAACAAAAB8AAAFhAAABZQAAAAACAAAABVaUjAlzZWxlY3Rpb26UXZRNi1CMFW51bXB5LmNvcmUu
+bXVsdGlhcnJheZSMBnNjYWxhcpSTlIwFbnVtcHmUjAVkdHlwZZSTlIwCdTGUiYiHlFKUKEsDjAF8
+lE5OTkr/////Sv////9LAHSUYkMBAZSGlFKUhpRhjBF0b29sdGlwX3Nob3dzX2FsbJSIjAVncmFw
+aJR9lCiMC2FscGhhX3ZhbHVllEv/jA1jbGFzc19kZW5zaXR5lImMC2ppdHRlcl9zaXpllEsAjBNs
+YWJlbF9vbmx5X3NlbGVjdGVklImMFm9ydGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lk
+dGiUSwqMCXNob3dfZ3JpZJSJjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIl1jAtfX3Zl
+cnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SM
+B0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjA5lbWlzc2lvbiB0b25l
+c5RLZoaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3Np
+emWUTkr+////hpSMBmF0dHJfeJSMBFllYXKUS2aGlIwGYXR0cl95lGguS2aGlGgYfZRoI0sEdYwK
+YXR0cmlidXRlc5R9lChoN0sCaC5LAnWMBW1ldGFzlH2UKIwGRW50aXR5lEsDjARDb2RllEsDdXVi
+aCgpgZR9lChoK32UKIwKYXR0cl9jb2xvcpSMDmVtaXNzaW9uIHRvbmVzlEtmhpSMCmF0dHJfbGFi
+ZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6ZZROSv7///+GlIwGYXR0
+cl94lIwEWWVhcpRLZoaUjAZhdHRyX3mUaEZLZoaUjAVncmFwaJR9lGgjSwR1aDx9lChoT0sCaEZL
+AnVoPn2UKIwGRW50aXR5lEsDjARDb2RllEsDdXViaCgpgZR9lChoK32UKGhFjA5lbWlzc2lvbiB0
+b25lc5RLZoaUaEhOSv7///+GlGhKTkr+////hpRoTE5K/v///4aUaE6MBFllYXKUS2aGlGhRaFxL
+ZoaUaFN9lGgjSwR1aDx9lChoYUsCaFxLAnVoPn2UKIwGRW50aXR5lEsDjARDb2RllEsDdXViaCgp
+gZR9lChoK32UKGhFTkr+////hpRoSE5K/v///4aUaEpOSv7///+GlGhMTkr+////hpRoTowEMTc1
+MZRLZoaUaFGMBDE3NTKUS2aGlGhTfZRoI0sEdWg8fZQoaHBLAmhySwKMBDE3NTOUSwKMBDE3NTSU
+SwKMBDE3NTWUSwKMBDE3NTaUSwKMBDE3NTeUSwKMBDE3NTiUSwKMBDE3NTmUSwKMBDE3NjCUSwKM
+BDE3NjGUSwKMBDE3NjKUSwKMBDE3NjOUSwKMBDE3NjSUSwKMBDE3NjWUSwKMBDE3NjaUSwKMBDE3
+NjeUSwKMBDE3NjiUSwKMBDE3NjmUSwKMBDE3NzCUSwKMBDE3NzGUSwKMBDE3NzKUSwKMBDE3NzOU
+SwKMBDE3NzSUSwKMBDE3NzWUSwKMBDE3NzaUSwKMBDE3NzeUSwKMBDE3NziUSwKMBDE3NzmUSwKM
+BDE3ODCUSwKMBDE3ODGUSwKMBDE3ODKUSwKMBDE3ODOUSwKMBDE3ODSUSwKMBDE3ODWUSwKMBDE3
+ODaUSwKMBDE3ODeUSwKMBDE3ODiUSwKMBDE3ODmUSwKMBDE3OTCUSwKMBDE3OTGUSwKMBDE3OTKU
+SwKMBDE3OTOUSwKMBDE3OTSUSwKMBDE3OTWUSwKMBDE3OTaUSwKMBDE3OTeUSwKMBDE3OTiUSwKM
+BDE3OTmUSwKMBDE4MDCUSwKMBDE4MDGUSwKMBDE4MDKUSwKMBDE4MDOUSwKMBDE4MDSUSwKMBDE4
+MDWUSwKMBDE4MDaUSwKMBDE4MDeUSwKMBDE4MDiUSwKMBDE4MDmUSwKMBDE4MTCUSwKMBDE4MTGU
+SwKMBDE4MTKUSwKMBDE4MTOUSwKMBDE4MTSUSwKMBDE4MTWUSwKMBDE4MTaUSwKMBDE4MTeUSwKM
+BDE4MTiUSwKMBDE4MTmUSwKMBDE4MjCUSwKMBDE4MjGUSwKMBDE4MjKUSwKMBDE4MjOUSwKMBDE4
+MjSUSwKMBDE4MjWUSwKMBDE4MjaUSwKMBDE4MjeUSwKMBDE4MjiUSwKMBDE4MjmUSwKMBDE4MzCU
+SwKMBDE4MzGUSwKMBDE4MzKUSwKMBDE4MzOUSwKMBDE4MzSUSwKMBDE4MzWUSwKMBDE4MzaUSwKM
+BDE4MzeUSwKMBDE4MziUSwKMBDE4MzmUSwKMBDE4NDCUSwKMBDE4NDGUSwKMBDE4NDKUSwKMBDE4
+NDOUSwKMBDE4NDSUSwKMBDE4NDWUSwKMBDE4NDaUSwKMBDE4NDeUSwKMBDE4NDiUSwKMBDE4NDmU
+SwKMBDE4NTCUSwKMBDE4NTGUSwKMBDE4NTKUSwKMBDE4NTOUSwKMBDE4NTSUSwKMBDE4NTWUSwKM
+BDE4NTaUSwKMBDE4NTeUSwKMBDE4NTiUSwKMBDE4NTmUSwKMBDE4NjCUSwKMBDE4NjGUSwKMBDE4
+NjKUSwKMBDE4NjOUSwKMBDE4NjSUSwKMBDE4NjWUSwKMBDE4NjaUSwKMBDE4NjeUSwKMBDE4NjiU
+SwKMBDE4NjmUSwKMBDE4NzCUSwKMBDE4NzGUSwKMBDE4NzKUSwKMBDE4NzOUSwKMBDE4NzSUSwKM
+BDE4NzWUSwKMBDE4NzaUSwKMBDE4NzeUSwKMBDE4NziUSwKMBDE4NzmUSwKMBDE4ODCUSwKMBDE4
+ODGUSwKMBDE4ODKUSwKMBDE4ODOUSwKMBDE4ODSUSwKMBDE4ODWUSwKMBDE4ODaUSwKMBDE4ODeU
+SwKMBDE4ODiUSwKMBDE4ODmUSwKMBDE4OTCUSwKMBDE4OTGUSwKMBDE4OTKUSwKMBDE4OTOUSwKM
+BDE4OTSUSwKMBDE4OTWUSwKMBDE4OTaUSwKMBDE4OTeUSwKMBDE4OTiUSwKMBDE4OTmUSwKMBDE5
+MDCUSwKMBDE5MDGUSwKMBDE5MDKUSwKMBDE5MDOUSwKMBDE5MDSUSwKMBDE5MDWUSwKMBDE5MDaU
+SwKMBDE5MDeUSwKMBDE5MDiUSwKMBDE5MDmUSwKMBDE5MTCUSwKMBDE5MTGUSwKMBDE5MTKUSwKM
+BDE5MTOUSwKMBDE5MTSUSwKMBDE5MTWUSwKMBDE5MTaUSwKMBDE5MTeUSwKMBDE5MTiUSwKMBDE5
+MTmUSwKMBDE5MjCUSwKMBDE5MjGUSwKMBDE5MjKUSwKMBDE5MjOUSwKMBDE5MjSUSwKMBDE5MjWU
+SwKMBDE5MjaUSwKMBDE5MjeUSwKMBDE5MjiUSwKMBDE5MjmUSwKMBDE5MzCUSwKMBDE5MzGUSwKM
+BDE5MzKUSwKMBDE5MzOUSwKMBDE5MzSUSwKMBDE5MzWUSwKMBDE5MzaUSwKMBDE5MzeUSwKMBDE5
+MziUSwKMBDE5MzmUSwKMBDE5NDCUSwKMBDE5NDGUSwKMBDE5NDKUSwKMBDE5NDOUSwKMBDE5NDSU
+SwKMBDE5NDWUSwKMBDE5NDaUSwKMBDE5NDeUSwKMBDE5NDiUSwKMBDE5NDmUSwKMBDE5NTCUSwKM
+BDE5NTGUSwKMBDE5NTKUSwKMBDE5NTOUSwKMBDE5NTSUSwKMBDE5NTWUSwKMBDE5NTaUSwKMBDE5
+NTeUSwKMBDE5NTiUSwKMBDE5NTmUSwKMBDE5NjCUSwKMBDE5NjGUSwKMBDE5NjKUSwKMBDE5NjOU
+SwKMBDE5NjSUSwKMBDE5NjWUSwKMBDE5NjaUSwKMBDE5NjeUSwKMBDE5NjiUSwKMBDE5NjmUSwKM
+BDE5NzCUSwKMBDE5NzGUSwKMBDE5NzKUSwKMBDE5NzOUSwKMBDE5NzSUSwKMBDE5NzWUSwKMBDE5
+NzaUSwKMBDE5NzeUSwKMBDE5NziUSwKMBDE5NzmUSwKMBDE5ODCUSwKMBDE5ODGUSwKMBDE5ODKU
+SwKMBDE5ODOUSwKMBDE5ODSUSwKMBDE5ODWUSwKMBDE5ODaUSwKMBDE5ODeUSwKMBDE5ODiUSwKM
+BDE5ODmUSwKMBDE5OTCUSwKMBDE5OTGUSwKMBDE5OTKUSwKMBDE5OTOUSwKMBDE5OTSUSwKMBDE5
+OTWUSwKMBDE5OTaUSwKMBDE5OTeUSwKMBDE5OTiUSwKMBDE5OTmUSwKMBDIwMDCUSwKMBDIwMDGU
+SwKMBDIwMDKUSwKMBDIwMDOUSwKMBDIwMDSUSwKMBDIwMDWUSwKMBDIwMDaUSwKMBDIwMDeUSwKM
+BDIwMDiUSwKMBDIwMDmUSwKMBDIwMTCUSwKMBDIwMTGUSwKMBDIwMTKUSwKMBDIwMTOUSwKMBDIw
+MTSUSwKMBDIwMTWUSwKMBDIwMTaUSwKMBDIwMTeUSwJ1aD59lIwHQ291bnRyeZRLA3N1YmV1Lg==
+</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\x13\x00\x00\x00S\x00\x00\x04B\x00\x00\x02m\x00\x00\x01\x1b\x00\x00\x00r\x00\x00\x04:\x00\x00\x02e\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': True, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
